@@ -1,0 +1,18 @@
+{
+  "repository_root_url": "https://github.com/jmcummings77/simpyle.git",
+  "project_name": "simpyle",
+  "repository_name": "simpyle",
+  "project_short_description": "A simple Python package.",
+  "project_create_data": "2021-06-30",
+  "copyright_year": "2021",
+  "project_author": "John-Michael Cummings",
+  "project_author_email": "JMCummings77@gmail.com",
+  "project_author_country": "United States of America",
+  "project_author_github_id": "jmcummings77",
+  "min_python_version": "3.9",
+  "supported_python_versions": "3.9",
+  "primary_python_version": "3.9",
+  "_copy_without_render": [
+    "*/workflows/*"
+  ]
+}

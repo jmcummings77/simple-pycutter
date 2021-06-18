@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "simple-pycutter"
+version = "0.0.1"
+description = "Python cookiecutter for setting up packages in a GitHub repo"
+authors = ["John-Michael Cummings <jmcummings77@gmail.com>"]
+
+readme = 'README.md'
+homepage = "https://github.com/jmcummings77/simple-pycutter"
+repository = "https://github.com/jmcummings77/simple-pycutter"
+keywords = ['cookiecutter']
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Pytest",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT Software License",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+coverage = "^5.5"
+pytest = "^6.2.4"
+black = "^21.5b1"
+cookiecutter = "^1.7.3"
+pyarrow = "^3.0.0"
+pandas = "1.1.5"
+PyYAML = "^5.4.1"
+confuse = "^1.4.0"
+pre-commit = "^2.13.0"
+loguru = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest-mock = "^3.6.1"
+pytest-faker = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3

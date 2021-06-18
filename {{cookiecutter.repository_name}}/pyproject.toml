@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = "{{cookiecutter.project_short_description}}"
+authors = ["{{cookiecutter.project_author}} <{{cookiecutter.project_author_email}}>"]
+repository = "{{cookiecutter.repository_root_url}}.git"
+readme = "README.md"
+include = [ "changelog.md","LICENSE", 'README-DEV.md']
+
+[tool.poetry.dependencies]
+python = "^{{cookiecutter.primary_python_version}}"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+# The regular expression pattern must be written as a single line;
+# otherwise pytest-black fails to exclude the folders. For details see
+# https://github.com/shopkeep/pytest-black/issues/36
+exclude = '(/(\.git|packaging|testing_framework|.venv|snapshots$|tests/data$)/)'
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
