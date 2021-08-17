@@ -29,11 +29,11 @@ def _install_packages() -> None:
     """
     Installs necessary packages.
     """
-    package_install_command = ["poetry", "add"]
-    package_install_command.extend(_PACKAGES)
+    # package_install_command = ["poetry", "add"]
+    # package_install_command.extend(_PACKAGES)
     dev_package_install_command = ["poetry", "add", "-D"]
     dev_package_install_command.extend(_DEV_PACKAGES)
-    _run(package_install_command)
+    # _run(package_install_command)
     _run(dev_package_install_command)
 
 
