@@ -1,5 +1,5 @@
-# Data Dough
+# Simple Python Cookiecutter
 
-Packageable Python Cookiecutter with GitHub Hosting
+Simple Python Cookiecutter with GitHub Hosting
 
 =============================
