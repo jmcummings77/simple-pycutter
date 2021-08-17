@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import List
 
 # The list of packages that we should install by default.
-_PACKAGES = ["pyarrow=^3.0.0", "pandas=1.1.5", "pyyaml", "confuse"]
+_PACKAGES = []
 
 # The list of development packages that we should install by default.
 _DEV_PACKAGES = ["pytest-mock", "pytest-faker", "black", "pre-commit"]
